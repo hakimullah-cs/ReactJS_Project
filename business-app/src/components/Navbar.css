@@ -1,0 +1,26 @@
+@media screen and (max-width:768px) {
+    .menu-items{
+        background:#000;
+        box-shadow: 0px 1rem 3rem rgb(0 0 0/12%);
+        width: 300px;
+        position:absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        padding: 3rem 10px;
+        z-index: 1000;
+        transition: all 0.3s ease-in-out;
+        transform: translateX(-100%);
+    }
+    .menu-items.active{
+        transform: translateY(0px);
+    }
+    .menu-items ul{
+        flex-direction: column;
+    }
+    .menu-items ul li{
+        /* margin-bottom: 2rem; */
+        padding: 1.5rem 0;
+        border-bottom: 0.3px solid grey;
+    }
+}

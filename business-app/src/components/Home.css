@@ -1,0 +1,18 @@
+.banner{
+    width: 100%;
+    min-height:88vh;
+    padding: 8rem 0 0;
+    background: url("../../src/assets/banner/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.btn a:hover{
+    transition: all 0.23s ease-in-out;
+    border: 1.5px solid #e21056 !important;
+}
+
+.right-con img{
+    border-top-right-radius:33px ;
+    border-bottom-left-radius:18px ;
+}
