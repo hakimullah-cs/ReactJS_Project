@@ -1,0 +1,11 @@
+.sellercard{
+    box-shadow: 0px 0px 3px grey;
+}
+.top-icons span{
+    display: inline-block;
+    background:#EA002A;
+    width: 1rem;
+    height: 1.5rem;
+    border-radius: 2px;
+    margin-right: 10px;
+}
