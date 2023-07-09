@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CategoryCard from "./CategoryCard";
 import './Categories.css';
+import {Link} from 'react-router-dom';
 
 
 export default function Categories({infos}) {
@@ -34,9 +35,13 @@ export default function Categories({infos}) {
       {
         infos.map(info=>{
           return (
-            <div key={info.id}>
-            <CategoryCard card={info}/>
-            </div>
+          <div key={info.id}>
+           
+           <Link to={'/menu'}>
+           <CategoryCard card={info}/>
+           </Link>
+             
+          </div>
           )
         })
       }

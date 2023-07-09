@@ -4,7 +4,8 @@ import { HiMenuAlt1,HiShoppingCart,HiOutlineLocationMarker,HiOutlineSearch,HiOut
 import { AiFillCloseSquare } from "react-icons/ai";
 import logo from '../../src/assests/logo.png';
 import delicon from '../../src/assests/delivery-icon.png';
-import pickup from '../../src/assests/pickup.png'
+import pickup from '../../src/assests/pickup.png';
+import {Link} from 'react-router-dom';
 export default function Navbar() {
   // window.addEventListener("click",()=>{
   //   document.querySelector(".menu-items").classList.remove("active");
@@ -23,7 +24,7 @@ export default function Navbar() {
       <div className="container  flex items-center justify-between ">
         <div className="left-side flex gap-2 items-center">
             <HiMenuAlt1 className="text-[3rem] text-white hover:text-[crimson]" onClick={showSidenav}/>
-            <img src={logo} alt="Logo-Here" />
+            <Link to={'/'}><img src={logo} alt="Logo-Here" /></Link>
             <div className="md:flex gap-3 hidden">
                 <a href="/" className="text-white border-2 border-[crimson] flex px-2 py-1 font-semibold mr-3 rounded-md items-center gap-2">
                     <img src={delicon} alt="del-icon" className="w-[2rem]" />
@@ -101,11 +102,11 @@ export default function Navbar() {
           </li>
         </div>
         </ul>
-        <div className="right-side flex items-center gap-5 hover:text-[crimson]">
-        <HiShoppingCart className="text-[2rem]"/>
-        <a href="/" className="text-white  bg-[crimson]  px-3 py-3 font-bold rounded-md">
+        <div className="right-side flex items-center gap-5 ">
+        <HiShoppingCart className="text-[2rem] hover:text-[crimson]"/>
+        <Link to={'/login'} className="text-white  bg-[crimson]  px-3 py-3 font-bold rounded-md">
                    LOGIN
-                </a>
+                </Link>
         </div>
       </div>
     </nav>

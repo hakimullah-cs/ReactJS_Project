@@ -3,6 +3,8 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import SellerCard from './SellerCard';
 
+
+
 export default function SellerProducts({seller}) {
     const responsive = {
         superLargeDesktop: {
@@ -32,7 +34,9 @@ export default function SellerProducts({seller}) {
             seller.map(seller=>{
                 return (
                     <div key={seller.id}>
-         <SellerCard sell={seller}/>
+                
+                <SellerCard sell={seller}/> 
+                
          </div>
                 )
             })
