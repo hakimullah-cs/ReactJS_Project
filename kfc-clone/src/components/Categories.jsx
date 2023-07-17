@@ -6,7 +6,13 @@ import './Categories.css';
 import {Link} from 'react-router-dom';
 
 
+
+
+
 export default function Categories({infos}) {
+  function convertToSlug(text) {
+    return text.toLowerCase().replace(/ /g, "-").replace(/[^\w-]+/g, "");
+  }
   
   const responsive = {
     superLargeDesktop: {
@@ -34,12 +40,13 @@ export default function Categories({infos}) {
         
       {
         infos.map(info=>{
+          let slug=convertToSlug(info.title)
           return (
           <div key={info.id}>
            
-           <Link to={'/menu'}>
-           <CategoryCard card={info}/>
-           </Link>
+           
+          <Link to={`/menu/${slug}`}><CategoryCard card={info}/></Link> 
+           
              
           </div>
           )

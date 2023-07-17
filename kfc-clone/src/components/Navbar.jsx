@@ -41,22 +41,22 @@ export default function Navbar() {
         <AiFillCloseSquare className="fixed top-0 right-0 text-2xl bg-[crimson] text-white" onClick={closesidenav}/>
         <hr className="mb-3"></hr>
           <li className="mb-4">
-            <a href="/" className="flex items-center gap-2 text-xl font-semibold">
+            <Link to={'/stotelocations'} className="flex items-center gap-2 text-xl font-semibold">
             <HiOutlineLocationMarker className="bg-[crimson] text-white p-1 text-3xl rounded "/>
             Store Location
-            </a>
+            </Link>
           </li>
           <li className="mb-4">
-            <a href="/" className="flex items-center gap-2 text-xl font-semibold">
+            <Link to={'/tractorder'} href="/" className="flex items-center gap-2 text-xl font-semibold">
             <HiOutlineSearch className="bg-[crimson] text-white p-1 text-3xl rounded "/>
             Track Order
-            </a>
+            </Link>
           </li>
           <li className="mb-5">
-            <a href="/" className="flex items-center gap-2 text-xl font-semibold ">
+            <Link to={'/menu'} className="flex items-center gap-2 text-xl font-semibold ">
             <HiOutlineMenu className="bg-[crimson] text-white p-1 text-3xl rounded "/>
             Explore Menu
-            </a>
+            </Link>
           </li>
           <hr className="mb-6"></hr>
           <li className="mb-3">
@@ -65,25 +65,25 @@ export default function Navbar() {
             </a>
           </li>
           <li className="mb-5">
-            <a href="/" className="flex items-center gap-2 text-xl  hover:text-[crimson]">
+            <Link to={'/feedback'} className="flex items-center gap-2 text-xl  hover:text-[crimson]">
           Feedback
-            </a>
+            </Link>
           </li>
           <li className="mb-5">
-            <a href="/" className="flex items-center gap-2 text-xl  hover:text-[crimson]">
+            <Link to={'/termandconditions'} className="flex items-center gap-2 text-xl  hover:text-[crimson]">
           Terms & Conditions
-            </a>
+            </Link>
           </li>
          
           <li className="mb-5">
-            <a href="/" className="flex items-center gap-2 text-xl  hover:text-[crimson]">
+            <Link to={'/policy'} className="flex items-center gap-2 text-xl  hover:text-[crimson]">
           Privacy Policy
-            </a>
+            </Link>
           </li>
           <li className="mb-5">
-            <a href="/" className="flex items-center gap-2 text-xl font-semibold hover:text-[crimson]">
+            <Link to={'/contact'} className="flex items-center gap-2 text-xl font-semibold hover:text-[crimson]">
           Contact Us
-            </a>
+            </Link>
           </li>
           <li className="mb-5">
             <a href="/" className="flex items-center gap-2 text-xl font-semibold hover:text-[crimson]">

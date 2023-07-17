@@ -11,6 +11,7 @@
 }
 .title{
     position: relative;
+    margin-bottom: 1.6rem !important;
 }
 .title::after{
     content: '';

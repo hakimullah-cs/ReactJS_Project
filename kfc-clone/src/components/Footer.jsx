@@ -2,6 +2,7 @@ import React from 'react';
 import logo from '../assests/logo.png';
 import {AiFillYoutube,AiFillFacebook,AiOutlineInstagram,AiOutlineApple} from 'react-icons/ai';
 import {BiLogoPlayStore} from 'react-icons/bi';
+import {Link} from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -48,7 +49,7 @@ export default function Footer() {
             </ul>
             <ul className=' p-3'>
               <li>
-                <a href='/' className='text-xl font-semibold'>Terms & Conditions</a>
+                <Link to={'/termandconditions'} className='text-xl font-semibold'>Terms & Conditions</Link>
               </li>
             
              

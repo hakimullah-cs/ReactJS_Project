@@ -1,0 +1,20 @@
+@media screen and (max-width:1024px) {
+    .menu-items{
+        flex-direction: column;
+        justify-content: center;
+       text-align: center;
+        background:#000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 280px;
+        height: 100vh;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        transform: translateX(-100%);
+        transition: all 0.3s ease-in-out;
+    }
+    .menu-items.active{
+        transform: translateX(0);
+    }
+}
