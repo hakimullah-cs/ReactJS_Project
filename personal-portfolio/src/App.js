@@ -1,5 +1,6 @@
 import Banner from "./components/Banner/Banner";
 import Navbar from "./components/Navbar/Navbar";
+import Features from './components/Features/Features';
 import "./App.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
      <Navbar/>
    <div className='max-w-full-xl  mx-auto md:px-16 px-3'>
     <Banner/>
+    <Features/>
    </div>
     </div>
   );

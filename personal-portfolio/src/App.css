@@ -7,7 +7,7 @@
     text-transform: uppercase;
     box-shadow: 10px 10px 19px #000,
                -10px -10px 19px #262a2e;
-    transition: all 0.23s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .btn:hover{
     background:#000;
@@ -15,4 +15,12 @@
 ::selection{
     background:#c4cfde;
     color: #ff014f;
+}
+.card{
+    transition: all 0.3s ease-in-out;
+    box-shadow: 10px 10px 19px #000,
+               -10px -10px 19px #262a2e;
+}
+.card:hover{
+    background: #000;
 }
