@@ -1,0 +1,20 @@
+.project-card{
+    box-shadow: 10px 10px 19px #000,
+    -10px -10px 19px #262a2e;
+    border-radius: 6px;
+}
+.icon-con{
+    display: inline-block;
+    padding: 10px;
+    border-radius:8px;
+    box-shadow: 10px 10px 19px #000,
+    -10px -10px 19px #262a2e;
+    transition: all 0.3s ease-in-out;
+}
+.icon-con:hover{
+    background: #000;
+}
+.project-card .image:hover{
+    transition: all 1.6s ease-in-out;
+    background-position: bottom !important;
+}
