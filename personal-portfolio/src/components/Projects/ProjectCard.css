@@ -13,6 +13,7 @@
 }
 .icon-con:hover{
     background: #000;
+    color: crimson;
 }
 .project-card .image:hover{
     transition: all 1.6s ease-in-out;

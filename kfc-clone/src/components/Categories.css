@@ -1,0 +1,24 @@
+.react-multiple-carousel__arrow{
+    background:#EA002A !important;
+    min-width: 15px;
+    min-height: 15px;
+    padding: 3px 11px;
+}
+.react-multiple-carousel__arrow::before{
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.title{
+    position: relative;
+    margin-bottom: 1.6rem !important;
+}
+.title::after{
+    content: '';
+    display: block;
+    background:#EA002A;
+    height: 4px;
+    border-radius: 25px;
+    width: 60px;
+    position: absolute;
+}
