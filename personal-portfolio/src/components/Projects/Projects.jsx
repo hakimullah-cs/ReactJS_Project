@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Projects.css";
 import "./ProjectCard.css";
 import {data} from '../../Data/data';
@@ -37,11 +37,12 @@ function Projects() {
             <p className='uppercase text-designColor'>visit My Portfolio and keep your feedback</p>
             <h2 className='text-[3rem] text-white font-bold'>My Projects</h2>
         </div>
+      
 <Carousel responsive={responsive} className='mb-5 pb-5'>
      {
       data.Projects.map((ele)=>{
         return (
-          <div>
+          <div key={ele.id}>
             <ProjectCard prop={ele}/>
           </div>
         )

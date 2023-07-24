@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/Navbar/logo.png';
 import { Typewriter } from 'react-simple-typewriter'
+import CV from '../../assets/HakimUllah.docx'
 
 function Banner() {
   return (
@@ -22,8 +23,8 @@ function Banner() {
           />}</span></h3>
                 <p className='sm:font-semibold font-normal text-justify mb-[3rem]'>“Innovative FrontEnd Developer with 3 years experience building and maintaining responsive websites in the recruiting industry. Proficient in HTML, CSS, Bootstrap, JavaScript ReactJS.Plus modern libraries and frameworks. Passionate about usability and possess working knowledge of Adobe Photoshop & Sketch.“</p>
         <div className='flex gap-4'>
-            <a href='' className='btn mt-5'>Download CV</a>
-            <a href='' className='btn mt-5'>message</a>
+            <a href={CV} target='_blank' className='btn mt-5'>Download CV</a>
+            <a href='https://wa.me/03088487568' className='btn mt-5'>message</a>
         </div>
             </div>
             <div className='w-[30rem] h-[570px]'>

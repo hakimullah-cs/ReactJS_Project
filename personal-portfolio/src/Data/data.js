@@ -79,7 +79,7 @@ export const data={
         },
         {
             "id":4,
-            "image":"Images/mypersonalportfolio.png",
+            "image":"Images/portfolio.png",
             "title":"My Personal Portfolio",
             "description":"I built the responsive My Personal Portfolio website by using ReactJS & TailwindCSS",
             "live":"https://hucoder.netlify.app/",
@@ -104,6 +104,54 @@ export const data={
             "github":"https://github.com/hakimullah-cs/Online_Institute_Website",
             "category":"webdesign"
         },
+       
         
+    ],
+    "Skills":[
+        {
+            "id":1,
+            "title":"Javascript",
+            "percent":80
+        },
+        {
+            "id":2,
+            "title":"ReactJS",
+            "percent":45
+        },
+        {
+            "id":3,
+            "title":"HTML5",
+            "percent":90
+        },
+        {
+            "id":4,
+            "title":"CSS3",
+            "percent":80
+        },
+        {
+            "id":5,
+            "title":"Bootstrap5",
+            "percent":75
+        },
+        {
+            "id":6,
+            "title":"TailwindCSS",
+            "percent":65
+        },
+        {
+            "id":7,
+            "title":"GitHub",
+            "percent":60
+        },
+        {
+            "id":8,
+            "title":"Wordpress",
+            "percent":70
+        },
+        {
+            "id":8,
+            "title":"Database ERD Design",
+            "percent":70
+        },
     ]
 }

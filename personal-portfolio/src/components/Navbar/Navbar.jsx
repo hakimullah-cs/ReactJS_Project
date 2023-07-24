@@ -41,7 +41,7 @@ function Navbar() {
         </ul>
 
         <div className='flex md:gap-6 gap-3 items-center'>
-            <a href='/' className='btn'>Hire Me</a>
+            <a href='https://wa.me/03088487568' className='btn'>Hire Me</a>
             <div className='lg:hidden block rounded-full p-3 bg-[#212529] text-designColor shadow-2xl'>
             <AiOutlineMenu className='text-[2rem]' onClick={sidenav}/>
             </div>
